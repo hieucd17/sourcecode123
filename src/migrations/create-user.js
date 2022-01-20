@@ -12,13 +12,13 @@ module.exports = {
       email: {
         type: Sequelize.STRING,
       },
+      passWord: {
+        type: Sequelize.STRING,
+      },
       firstName: {
         type: Sequelize.STRING,
       },
       lastName: {
-        type: Sequelize.STRING,
-      },
-      passWord: {
         type: Sequelize.STRING,
       },
       address: {
@@ -27,10 +27,19 @@ module.exports = {
       gender: {
         type: Sequelize.BOOLEAN,
       },
+      phoneNumber: {
+        type: Sequelize.STRING,
+      },
+      image: {
+        type: Sequelize.STRING,
+      },
       typeRole: {
         type: Sequelize.STRING,
       },
       keyRole: {
+        type: Sequelize.STRING,
+      },
+      positionId: {
         type: Sequelize.STRING,
       },
       createdAt: {

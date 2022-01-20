@@ -13,9 +13,12 @@ module.exports = {
         type: Sequelize.INTEGER,
       },
       doctorId: {
-        doctorId: Sequelize.INTEGER,
+        type: Sequelize.INTEGER,
       },
       description: {
+        type: Sequelize.STRING,
+      },
+      files: {
         type: Sequelize.STRING,
       },
       createdAt: {

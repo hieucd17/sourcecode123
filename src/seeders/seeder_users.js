@@ -12,6 +12,7 @@ module.exports = {
         gender: 1,
         typeRole: "ROLE",
         keyRole: "R1",
+        phoneNumber: "0348078425",
         createdAt: new Date(),
         updatedAt: new Date(),
       },

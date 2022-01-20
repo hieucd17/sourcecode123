@@ -13,7 +13,7 @@ module.exports = {
         type: Sequelize.INTEGER,
       },
       maxNumber: {
-        doctorId: Sequelize.INTEGER,
+        type: Sequelize.INTEGER,
       },
       date: {
         type: Sequelize.DATE,
